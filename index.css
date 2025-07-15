@@ -1,0 +1,20 @@
+body{
+    background: radial-gradient(rgb(255, 252, 252), rgb(190, 130, 130), rgb(110, 110, 163));
+    padding: 0;
+    margin: o;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div{
+ background: rgb(83, 73, 177);
+ padding: 100px;
+ border-radius: 10px;
+}
+p{
+    text-align: center;
+}
+label{
+    align-items: center;
+}
