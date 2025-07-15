@@ -19,11 +19,11 @@ document.getElementById("birthDate").value;
 
    if (dayDiff<0) {
     monthDiff--;
-    let preMonth = new Date(today.getFullYear,today.getMonth,0 );
+    let preMonth = new Date(today.getFullYear(),today.getMonth(),0 );
     dayDiff+= preMonth.getDate();
    }
  if (monthDiff<0 || (monthDiff===0 && dayDiff<0)){
-    age--
+    age--;
  }
 
  if (monthDiff<0){
